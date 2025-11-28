@@ -55,7 +55,7 @@ function addQuestion(question) {
           @reset="resetSurvey"
         />
       </div>
-      <div class="mx-auto mt-6 w-full max-w-md">
+      <div class="mx-auto mt-6 w-full">
         <QuestionCreator @add-question="addQuestion" />
       </div>
     </div>
